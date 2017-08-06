@@ -3,7 +3,7 @@ Priority: optional
 Homepage: https://github.com/virtualmin/virtualmin-lamp-stack-ubu
 Standards-Version: 3.9.2
 
-Package: virtualmin-lamp-stack-minimal
+Package: virtualmin-lemp-stack-minimal
 Version: 6.0.2+ubuntu-16.04
 Maintainer: Joe Cooper <joe@virtualmin.com>
 Depends: bsdutils, libcrypt-ssleay-perl, unzip, zip, libfcgi-dev, openssl, python, libapache2-mod-fcgid, apache2-suexec-custom, apache2, apache2-doc, php-pear, php, php-cgi, php-cli, php-fpm, ntpdate, postfix, postfix-pcre, php7.0, php7.0-cgi, php7.0-fpm, php7.0-cli
