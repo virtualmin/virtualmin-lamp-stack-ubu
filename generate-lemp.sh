@@ -11,7 +11,7 @@ sed -i "s/apache2-suexec-custom, //" virtualmin-lemp-stack.ctl
 sed -i "s/apache2-doc, //" virtualmin-lemp-stack.ctl
 
 cp virtualmin-lamp-stack-minimal.ctl virtualmin-lemp-stack-minimal.ctl
-sed -i "s/virtualmin-lamp-stack-minimal/virtualmin-lemp-stack-minimal/" virtualmin-lamp-stack-minimal.ctl
+sed -i "s/virtualmin-lamp-stack-minimal/virtualmin-lemp-stack-minimal/" virtualmin-lemp-stack-minimal.ctl
 sed -i "s/LAMP/LEMP/g" virtualmin-lemp-stack-minimal.ctl
 sed -i "s/apache2, /nginx-full, /" virtualmin-lemp-stack-minimal.ctl
 sed -i "s/libapache2-mod-fcgid, //" virtualmin-lemp-stack-minimal.ctl
