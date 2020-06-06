@@ -8,4 +8,6 @@ for i in *.deb; do
   aptly repo add virtualmin-trusty $i
   echo "Adding $i to bionic repo"
   aptly repo add virtualmin-bionic $i
+  echo "Adding $i to focal repo"
+  aptly repo add virtualmin-focal $i
 done
