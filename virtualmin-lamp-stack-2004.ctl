@@ -1,10 +1,10 @@
 Section: admin
 Priority: optional
 Homepage: https://github.com/virtualmin/virtualmin-lamp-stack-ubu
-Standards-Version: 3.9.3
+Standards-Version: 3.9.2
 
 Package: virtualmin-lamp-stack
-Version: 6.1.0+ubuntu-20.04
+Version: 6.1.1+ubuntu-20.04
 Maintainer: Joe Cooper <joe@virtualmin.com>
 Changed-By: Ilia Rostovtsev <programming@rostovtsev.io>
 Depends: bsdutils, libcrypt-ssleay-perl, unzip, zip, libfcgi-dev, openssl, python3, libapache2-mod-fcgid, apache2-suexec-custom, apache2, apache2-doc, php-pear, php-cgi, php-cli, php-fpm, php-mysql, ntpdate, postfix, postfix-pcre
