@@ -8,7 +8,7 @@ for i in *.ctl; do
   sed -i "s/virtualmin-lamp-stack/virtualmin-lemp-stack/" "$lempname"
   sed -i "s/LAMP/LEMP/g" "$lempname"
   sed -i "s/apache2, /nginx-full | nginx-extras, webmin-virtualmin-nginx, webmin-virtualmin-nginx-ssl, /" "$lempname"
-  sed -i "s/libapache2-mod-fcgid, //" "$lempname"
+  sed -i "s/libapache2-mod-fcgid, /fcgiwrap, /" "$lempname"
   sed -i "s/libfcgi-dev, /fcgiwrap, /" "$lempname"
   sed -i "s/apache2-suexec-custom, //" "$lempname"
   sed -i "s/apache2-doc, //" "$lempname"
