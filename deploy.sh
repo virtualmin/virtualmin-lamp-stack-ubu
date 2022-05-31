@@ -2,10 +2,8 @@
 # Script to add packages to aptly repos
 
 for i in *.deb; do
-  echo "Adding $i to bionic repo"
-  aptly repo add virtualmin-7-bionic $i
-  echo "Adding $i to focal repo"
-  aptly repo add virtualmin-7-focal $i
-  echo "Adding $i to jammy repo"
-  aptly repo add virtualmin-7-jammy $i
+  echo "Adding $i to pro repo"
+  aptly repo add virtualmin-7-pro $i
+  echo "Adding $i to gpl repo"
+  aptly repo add virtualmin-7-gpl $i
 done
