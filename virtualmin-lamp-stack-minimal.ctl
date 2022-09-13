@@ -9,7 +9,7 @@ Maintainer: Joe Cooper <joe@virtualmin.com>
 Changed-By: Ilia Rostovtsev <ilia@virtualmin.com>
 Depends: bsdutils, libcrypt-ssleay-perl, unzip, zip, libfcgi-dev, openssl, python3, libapache2-mod-fcgid, apache2-suexec-custom, apache2, apache2-doc, postfix, postfix-pcre
 Recommends: perl-doc, bind9, libdbd-mysql-perl, libxml-simple-perl, quota, iptables, firewalld, procmail, procmail-wrapper, mariadb-server, mariadb-client, mariadb-common, awstats, proftpd-basic, jailkit, php-pear, php-cgi, php-cli, php-fpm, php-mysql, php-mbstring, dovecot-core, dovecot-imapd, dovecot-pop3d, libsasl2-2, libsasl2-modules, sasl2-bin, p7zip, xz-utils, etckeeper, certbot, logrotate, lm-sensors, shared-mime-info, rsync, fcgiwrap
-Suggests: postgresql, postgresql-client, libdbd-pg-perl, libpg-perl, clamav-base, clamav, clamav-daemon, clamav-freshclam, clamav-docs, clamav-testfiles, libconfig-inifiles-perl, spamassassin, spamc, postgrey, awstats, fail2ban, milter-greylist
+Suggests: postgresql, postgresql-client, libdbd-pg-perl, libpg-perl, clamav-base, clamav, clamav-daemon, clamav-freshclam, clamav-docs, clamav-testfiles, libconfig-inifiles-perl, spamassassin, spamc, postgrey, awstats, fail2ban, milter-greylist, awscli
 Replaces: virtualmin-base
 Architecture: all
 Copyright: LICENSE
