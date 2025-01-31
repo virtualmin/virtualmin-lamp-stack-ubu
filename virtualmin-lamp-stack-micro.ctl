@@ -4,7 +4,7 @@ Homepage: https://github.com/virtualmin/virtualmin-lamp-stack-ubu
 Standards-Version: 3.9.2
 
 Package: virtualmin-lamp-stack-micro
-Version: 7.0.7-1
+Version: 7.0.6-1
 Maintainer: Joe Cooper <joe@virtualmin.com>
 Changed-By: Ilia Ross <ilia@virtualmin.com>
 Depends: bsdutils, libcrypt-ssleay-perl, openssl, apache2
