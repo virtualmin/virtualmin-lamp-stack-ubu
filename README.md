@@ -1,7 +1,5 @@
-## virtualmin-lamp-stack-ubu (Archived)
+# virtualmin-lamp-stack-ubu
 
-This repository is **archived** and its contents have been moved to:
+Ubuntu and Debian metapackage that depends on the LAMP stack for Virtualmin
 
-[virtualmin-stack-meta](https://github.com/virtualmin/virtualmin-stack-meta)
-
-Please visit the new repository for updates and development.
+Created with equivs-control, and can be built with equivs-build.
